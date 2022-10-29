@@ -1,0 +1,211 @@
+.headerRequest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_about h2 {
+    font-size: 2em;
+}
+
+.text_about p {
+    font-size: 20px;
+}
+
+.formSearchArtist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 ;
+}
+
+
+.formSearchArtist input {
+    border: 1px solid #0f0f0f;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+    transition: .3s;
+    width: 300px;
+    margin: 0 5px;  
+    padding: 15px;
+}
+
+.getArtist {
+    background-color: #1f77e9;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100px;
+    float: right;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00000044;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.getArtist:hover {
+    background-color: #0d58b9;
+}
+
+
+/* data artist */
+
+.artist {
+    margin: auto;
+}
+
+.imageArtist {
+    width: 10%;
+    border-radius: 100%;
+    display: block;
+    margin: 20px 10px 10px 0;
+}
+
+.info_center{
+    font-size: 2.6em;
+}
+
+.detalsArtist {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.optionsNetwork {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    padding: 10px;
+}
+
+.optionsNetwork a {
+    font-size: 26px;
+    display: block;
+    color: black;
+    margin: 0 20px;
+    transition: .4s;
+}
+
+.optionsNetwork a:hover {
+    transform: translateY(-0.4em);
+}
+
+.music_artist {
+    background-color: #0f0f0f05;
+    color: #fffefe;
+    width: 100%;
+    padding: 5px;
+    border-radius:10px;
+    margin: 10px 0;
+}
+
+.music_artist p {
+    margin-bottom: 10px;
+}
+
+.iconDeezer {
+    background-color: #fff;
+    padding: 5px 10px 2px 10px;
+    border-radius: 100%;
+}
+
+audio {
+    width: 100%;
+}
+
+.aboutMore {
+    display: block;
+    color: #000000b2;
+    font-size: 13px;
+    text-align: center;
+}
+
+.albumAbout {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-top: 1px solid #00000021;
+    padding-top: 10px;
+    position: relative;
+}
+
+.albumAbout p {
+    margin-top: 10px ;
+}
+
+.imageAlbum {
+    border-radius: 100%;
+    width: 7%;
+    display: block;
+    margin-right: 10px;
+}
+
+.btnYtViewMusic {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #ff0000c0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.btnYtViewMusic:hover {
+    color: #f30000;
+}
+
+
+@media screen and (max-width: 825px) {
+    .headerRequest {
+        display: block  ;
+    }
+
+    .imageAlbum {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .detalsArtist {
+        display: block;
+        text-align: center;
+    }
+
+    .imageArtist {
+        width: 35%;
+        margin: auto;
+    }
+
+    .text_about {
+        text-align: center  ;
+    }
+
+    .getArtist {
+        width: 200px;
+        font-size: 17px;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .formSearchArtist input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .optionsNetwork {
+        position: initial;
+        display: block;
+        margin: auto;
+        width: 110px;
+    }
+
+    .iconDeezer {
+        background-color: #ffffffec;
+        
+    }
+}

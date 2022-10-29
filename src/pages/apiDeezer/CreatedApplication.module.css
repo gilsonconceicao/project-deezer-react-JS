@@ -1,0 +1,43 @@
+.imageReact {
+    display: block;
+}
+
+.text_about {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.text_about h2 {
+    font-size: 2em;
+}
+
+.text_about h3 {margin: 20px 0 ;}
+
+.text_about p { 
+    font-size: 16px;
+    margin: 20px 3px;
+}
+
+.listTopicos {
+    list-style-type: '★ ';
+    margin-left: 20px;
+}
+
+.listTopicos li {margin: 10px 0 ;}
+
+
+.destlink {
+    background-color: #0a62b957;
+    padding: 0 2px; 
+}
+
+
+@media screen and (max-width: 560px) {
+    img {
+        display: block;
+        width: 100%;
+    }
+}

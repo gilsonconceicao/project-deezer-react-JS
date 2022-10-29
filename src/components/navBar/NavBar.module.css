@@ -1,0 +1,49 @@
+.headerPage {
+    box-shadow: 0 10px 5px #00000028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+.navlinks {
+    background-color: #1f1d1d;     
+    z-index: 10;
+    display: block;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    padding: 20px;
+}
+
+.navlinks > li a {
+    color: #fdfcfc;
+    font-size: 20px;
+    display: block;
+    margin: 40px 0;
+    padding: 10px 20px;
+}
+
+.navlinks > li a:hover {
+    border-bottom: 1px solid #fcf8f8f3;
+}
+
+.menubtn {
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.active_all {border-bottom: 1px solid #ffffffe8;}
+.active_home:focus {border-bottom: 1px solid #ffffffe8;}
+
+@media screen and (max-width: 490px) {
+    .navlinks {
+        top: 12vh;
+        width: 100%;
+    }
+}
