@@ -135,7 +135,8 @@ audio {
 }
 
 .albumAbout p {
-    margin-top: 10px ;
+    margin-top: 10px;
+    margin-right: 30px;
 }
 
 .imageAlbum {
@@ -207,5 +208,9 @@ audio {
     .iconDeezer {
         background-color: #ffffffec;
         
+    }
+
+    .albumAbout p {
+        font-size: 14px;
     }
 }
